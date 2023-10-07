@@ -1,0 +1,37 @@
+.header {
+    padding-top: 20px;
+    margin-bottom: 70px;
+
+    .container {
+        display: flex;
+        justify-content: space-between;
+    }
+
+   
+
+    &__link+&__link {
+        padding-left: 42px;
+        color: #333136;
+        font-family: 'Jost';
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 14px;
+        letter-spacing: 2px;
+    }
+
+    &__link {
+        padding-left: 42px;
+        color: #333136;
+        font-family: 'Jost';
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 14px;
+        letter-spacing: 2px;
+
+        &:hover {
+            color: #E7816B;
+        }
+    }
+}

@@ -1,0 +1,59 @@
+.touch {
+    .container {
+        background-image: url("../imgs/Group28.png");
+        width: 1111px;
+        height: 292px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 15px;
+        display: flex;
+        margin-top: -200px;
+    }
+
+    &__info {
+        margin-top: 72px;
+        margin-left: 95px;
+    }
+
+    &__heading {
+        margin: 0;
+        padding: 0;
+        padding-bottom: 20px;
+        width: 268px;
+        color: #FFF;
+        font-family: 'Jost';
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 40px;
+    }
+
+    &__text {
+        width: 459px;
+        color: #FFF;
+        font-family: 'Jost';
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 26px;
+    }
+
+    &__link {
+        margin: 0;
+        padding: 0;
+        padding: 17px 19px;
+        margin-left: 250px;
+        margin-top: 130px;
+        margin-bottom: 110px;
+        border-radius: 8px;
+        background: #FFF;
+        color: #333136;
+        font-family: 'Jost';
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+    }
+}
