@@ -30,6 +30,8 @@ body {
     font-family: "Open Sans", 'Arial', 'sans-serif';
     font-size: 18px;
     line-height: normal;
+    transition: all 0.5s ease-in-out;
+
 }
 
 img {
@@ -47,3 +49,45 @@ li, a {
     text-decoration: none;
     list-style: none;
 }
+
+.btin {
+    width: 50px;
+    height: 25px;
+    border-radius: 25px;
+    transition: all 0.5s ease-in-out;
+    background-color: black;
+}
+
+.spani {
+    background-color: rgb(255, 255, 255);
+    display: block;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    margin-left: 2px;
+    transition: all 0.5s ease-in-out;
+
+}
+
+.tun {
+    background-color: black;
+    transition: all 0.5s ease-in-out;
+
+
+    h1,h2, h3, h4, h5, h6, .header__link, p, span {
+        color: white;
+        transition: all 0.5s ease-in-out;
+
+    }
+
+    .btin {
+        background-color: white;
+    }
+
+    .spani {
+        margin-left: 30px;
+        transition: all 0.5s ease-in-out;
+        background-color: black;
+    }
+}
+
